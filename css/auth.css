@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/img/authentication.jpg');
+    background-size: cover;
+  }
+  .form-container {
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2, p{
+    color:white;
+  }
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-container input[type="text"],
+  .form-container input[type="password"],
+  .form-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #86B817;
+    color: #fff;
+    cursor: pointer;
+  }
+  .form-container button:hover {
+    background-color: #1786B8;
+  }
+  #loginLink, #signupLink{
+    color:#86B817
+  }
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
